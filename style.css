@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #f5f8ff;
+    --max-width: 1140px;
+    --black: #252432;
+}
+
+.container {
+    max-width: 1440px;
+    margin-inline: auto;
+    font-family: "Raleway", sans-serif;
+}
+
+.hero-bg {
+    background-image: url(./images/heroBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    visibility: 25%;
+    margin-top: 60px;
+}
+
+.hero-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    height: 151px;
+}
+.hero-logo-container h1 {
+    font-size: 34px;
+    font-weight: 900;
+    min-width: 99px;
+    min-height: 51px;
+    color: #4E47FF;
+}
+
+.hero-logo-container button {
+    background-color: #4E47FF;
+    color: #fff;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-logo-container button:hover {
+    background-color: #3730a3;
+}
+.hero-text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    padding: 8%;
+}
+.hero-text-container h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 65px;
+    max-width: 90%;
+    color: var(--black);
+}
+
+.hero-text-container button {
+    background-color: #4E47FF;
+    color: #fff;
+    padding-block: 12px;
+    padding-inline: 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-text-container button:hover{
+    background-color: #3730a3;
+}
+
+.conference-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.conference-left {
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 23px;
+}
